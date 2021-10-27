@@ -1,0 +1,108 @@
+body {
+  background-color: #F6F6F3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #F6F6F3;
+  cursor:url(images/smile3.png), auto;
+}
+
+.header {
+  /* background-color: #99C1B9; */
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(151, 176, 187, 0.73)), url("images/beach-crop.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  text-align: center;
+  padding: 150px;
+  margin: 10px;
+  color: #F6F6F3;
+}
+
+.profile-image {
+  text-align: center;
+  margin-top: -115px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.05);
+}
+
+.button {
+  padding: 0.5em 3em;
+  border: 0.16em solid #FFFFFF;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  animation: bounce .5s infinite alternate;
+  width: 30%;
+  padding: 10px;
+}
+
+p {
+  margin: 20px;
+}
+
+@keyframes bounce {
+  to { transform: scale(1.1); }
+}
+
+.footer {
+  background-color: #97B0BB;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  text-align: center;
+}
+
+.list-inline > li {
+    display: inline;
+    list-style: none;
+    margin: 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .button {
+    width: 50%;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .button {
+    width: 60%;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .button {
+    width: 80%;
+  }
+}
+
+a:hover {
+  color: #D88C9A;
+  text-decoration: none;
+}
